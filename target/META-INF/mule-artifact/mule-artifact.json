@@ -1,0 +1,33 @@
+{
+  "configs": [
+    "student_data.xml",
+    "student_api_spec.xml"
+  ],
+  "secureProperties": [],
+  "supportedJavaVersions": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:student_api_spec:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.10.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [
+        "com.poc.sync"
+      ],
+      "exportedResources": [
+        "api/student_data.raml",
+        "log4j2.xml",
+        "student_api_spec.xml",
+        "student_data.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  },
+  "javaSpecificationVersions": [
+    "17"
+  ]
+}
